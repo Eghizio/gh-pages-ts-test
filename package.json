@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "build:gh-pages": "npm run build && cp .gitignore.deployment .gitignore",
+    "build:gh-pages": "npm run build && cp .gitignore.deployment .gitignore && rm .gitignore.deployment",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch"
   },
