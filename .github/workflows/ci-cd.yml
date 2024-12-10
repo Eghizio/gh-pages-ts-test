@@ -26,7 +26,7 @@ jobs:
 
       # Krok 4: Kompilacja TypeScript
       - name: Build project
-        run: npm run build # Upewnij się, że ta komenda buduje Twój projekt
+        run: npm run build:gh-pages # Upewnij się, że ta komenda buduje Twój projekt
 
       - name: Check build output
         run: ls -la
